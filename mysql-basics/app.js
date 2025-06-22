@@ -2,7 +2,7 @@ import mysql from "mysql2/promise";
 const db=await mysql.createConnection({// create a connection to the database , await is used to wait for the connection to be established
     host:"localhost",
     user:"root",
-    password:"ypur_passsword",
+    password:"your_passsword",
     database:"mydb" // specify the database name
 });
 console.log("Mysql connected successfully")
